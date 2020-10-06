@@ -34,8 +34,8 @@
     "remark-breaks": "^1.0.5",
     "reset-css": "5.0.1",
     "slate": "^0.57.2",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "typeface-merriweather": "1.1.13",
+    "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
