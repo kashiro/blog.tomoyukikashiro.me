@@ -2638,6 +2638,13 @@ axios@^0.19.2:
   dependencies:
     follow-redirects "1.5.10"
 
+axios@^0.21.0:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.0.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.1.2.tgz#2bdffc0371e643e5f03ba99065d5179b9ca79799"
@@ -3653,10 +3660,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-clean-css@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
-  integrity sha512-VcMWDN54ZN/DS+g58HYL5/n4Zrqe8vHJpGA8KdgUXFU4fuP/aHNw8eld9SyEIyabIMJX/0RaY/fplOo5hYLSFA==
+clean-css@^5.0.0:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.1.2.tgz#6ea0da7286b4ddc2469a1b776e2461a5007eed54"
+  integrity sha512-QcaGg9OuMo+0Ds933yLOY+gHPWbxhxqF0HDexmToPf8pczvmvZGYzd+QqWp9/mkucAOKViI+dSFOqoZIvXbeBw==
   dependencies:
     source-map "~0.6.0"
 
@@ -6210,6 +6217,11 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "^3.0.0"
 
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -6456,14 +6468,14 @@ gatsby-plugin-feed@^2.5.0:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-html2amp@^1.3.3:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-html2amp/-/gatsby-plugin-html2amp-1.4.1.tgz#f4eaa929748ab8cf78f1ebc83ff78ab7dbef5409"
-  integrity sha512-sxDwG1Cp4+aHHJfvYT6Q4qKn/8tY0RwLifIYSlzsWoapGUoGE58QKtMeywdxr3x5nluYGan/a0mcHpzsRneX2w==
+gatsby-plugin-html2amp@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-html2amp/-/gatsby-plugin-html2amp-1.4.2.tgz#6f3a9c11467813c1691ce1dd9d208862a5bb6753"
+  integrity sha512-2wWiraNNb9IL9pmjFf8t8dADTw9WG6e/uJ01HG7aXg/7v8OboJy/cm6J0DdpXhfbpJTgpo2IFT4SwJDbFcb81g==
   dependencies:
     fs-extra "^9.0.0"
     globby "^11.0.0"
-    html2amp "^1.4.1"
+    html2amp "^1.4.2"
     slash "^3.0.0"
 
 gatsby-plugin-page-creator@^2.3.0:
@@ -7760,15 +7772,15 @@ html-void-elements@^1.0.0, html-void-elements@^1.0.1:
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-1.0.5.tgz#ce9159494e86d95e45795b166c2021c2cfca4483"
   integrity sha512-uE/TxKuyNIcx44cIWnjr/rfIATDH7ZaOMmstu0CwhFG1Dunhlp4OC6/NMbhiwoq5BpW0ubi303qnEk/PZj614w==
 
-html2amp@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/html2amp/-/html2amp-1.4.1.tgz#763e19bacbba1a83f5a40be51818ae668a5ca9d7"
-  integrity sha512-/JztwnX1CzlhmrW7+RQx97ZySufAwcW5A/Aw2cUKEXPvYK5hSO44NRvrnMJeDEANWdeZcgbNiemuYy59BWjGEQ==
+html2amp@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/html2amp/-/html2amp-1.4.2.tgz#525cd710d7bde45a6530159c4ea74960051e5849"
+  integrity sha512-XRNRtNTDsOunkcrJufJDUpJXE2AIB6+K44Zrry9s9FYcjCJp21f61vxXePd04/8MGhnZLYh18vgIl8xUtNN4yA==
   dependencies:
     "@ampproject/toolbox-optimizer" "^2.3.0"
-    axios "^0.19.2"
+    axios "^0.21.0"
     cheerio "^1.0.0-rc.2"
-    clean-css "^4.2.3"
+    clean-css "^5.0.0"
     data-uri-to-buffer "^3.0.0"
     probe-image-size "^5.0.0"
 
