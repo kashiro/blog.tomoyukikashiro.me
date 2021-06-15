@@ -38,8 +38,8 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
+    "@babel/cli": "7.14.5",
+    "@babel/core": "7.14.6",
     "amphtml-validator": "^1.0.30",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
